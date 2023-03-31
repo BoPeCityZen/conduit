@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 31 09:50:11 GMT 2023","Fri Mar 31 09:50:14 GMT 2023","2449","test","test_as_pytest_sign_up_neg&poz","TestSingUp","","","Regisztráció - Míg sikeres nem lesz",""
+"passed","Fri Mar 31 09:50:15 GMT 2023","Fri Mar 31 09:50:16 GMT 2023","1080","test","test_as_pytest_sign_up_neg&poz","TestSingUp","","","Regisztrációs kisérlet - jelszó nélkül",""
+"passed","Fri Mar 31 09:50:09 GMT 2023","Fri Mar 31 09:50:10 GMT 2023","1065","test","test_as_oopytest_sign_up_neg&poz","TestSingUp","","","test_sign_up_direct_negativ",""
+"passed","Fri Mar 31 09:50:05 GMT 2023","Fri Mar 31 09:50:07 GMT 2023","2688","test","test_as_oopytest_sign_up_neg&poz","TestSingUp","","","test_sign_up_negativ_and_pozitiv",""
