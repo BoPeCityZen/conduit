@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 09 16:53:40 GMT 2023","Sun Apr 09 16:53:41 GMT 2023","891","test","test_all_cases_v2","TestSingUp","","","Cookie policy acceptance",""
+"passed","Sun Apr 09 16:53:33 GMT 2023","Sun Apr 09 16:53:35 GMT 2023","1721","test","test_all_cases_v2","TestSingUp","","","Regisztráció - Míg sikeres nem lesz",""
+"passed","Sun Apr 09 16:53:43 GMT 2023","Sun Apr 09 16:53:46 GMT 2023","2988","test","test_as_pytest_sign_up_neg&poz","TestSingUp","","","Regisztráció - Míg sikeres nem lesz",""
+"passed","Sun Apr 09 16:53:29 GMT 2023","Sun Apr 09 16:53:32 GMT 2023","3146","test","test_all_cases_v2","TestSingUp","","","Regisztráció - fix adatokkal (samsara!)",""
+"passed","Sun Apr 09 16:53:26 GMT 2023","Sun Apr 09 16:53:27 GMT 2023","1137","test","test_all_cases_v2","TestSingUp","","","Regisztrációs kisérlet - jelszó nélkül",""
+"passed","Sun Apr 09 16:53:36 GMT 2023","Sun Apr 09 16:53:39 GMT 2023","2606","test","test_all_cases_v2","TestSingUp","","","Belépés sikerességének ellenőrzése",""
+"passed","Sun Apr 09 16:53:47 GMT 2023","Sun Apr 09 16:53:48 GMT 2023","1098","test","test_as_pytest_sign_up_neg&poz","TestSingUp","","","Regisztrációs kisérlet - jelszó nélkül",""
