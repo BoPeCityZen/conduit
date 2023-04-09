@@ -1,0 +1,32 @@
+
+Inp value fgv >> dict: {'Pass': {'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': 'Userpass1'}, 'Fail': {'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': ''}} 
+ list: ['user1', 'user1@hotmail.com', 'Userpass1']>
+{'Pass': {'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': 'Userpass1'}, 'Fail': {'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': ''}}
+{'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': 'Userpass1'}
+input_Username
+user1
+input_Email
+user1@hotmail.com
+input_password
+Userpass1
+{'input_Username': 'user1', 'input_Email': 'user1@hotmail.com', 'input_password': ''}
+input_Username
+user1
+input_Email
+user1@hotmail.com
+input_password
+
+
+csak a Pass értékei:
+user1
+user1@hotmail.com
+Userpass1
+['user1', 'user1@hotmail.com', 'Userpass1']
+user1
+user1@hotmail.com
+Userpass1
+
+gath_fgv elemei: [<selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="f3163ce2-b13c-4b72-a648-92d7a126ec96")>, <selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="e7e840a0-f1ab-461b-ab2b-c88c4aea80a8")>, <selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="e2994a9a-158c-4d1b-9541-7522789ac808")>]
+
+Itt a gather[<selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="f3163ce2-b13c-4b72-a648-92d7a126ec96")>, <selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="e7e840a0-f1ab-461b-ab2b-c88c4aea80a8")>, <selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="e2994a9a-158c-4d1b-9541-7522789ac808")>]
+az első:<selenium.webdriver.remote.webelement.WebElement (session="7cc95b214b042cd08c618243c1e3cc33", element="e7e840a0-f1ab-461b-ab2b-c88c4aea80a8")>
