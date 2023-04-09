@@ -1,2 +1,0 @@
-
-Assert direkt negatív ágon: Registration failed! (Password field required.)
