@@ -1,0 +1,4 @@
+
+Menuelemek száma: 5 -> Belépés megvalósult!
+Menuelemek száma: 3 -> Kilépés megvalósult!
+Igazolt kilépés: "Sign in" gombfelírat megjelent!
