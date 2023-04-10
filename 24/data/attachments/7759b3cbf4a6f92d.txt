@@ -1,3 +1,0 @@
-LogIN "+" ág ellenőrzése: menuelemek száma 5 -> Belépés megvalósult!
-LogIN "+" ág assert 1.-> igazolt belépés: A kilépés gomb lokalizálható! +
-LogIN "+" ág assert 2. -> igazolt belépés:  Log out szöveg megjelent! +
