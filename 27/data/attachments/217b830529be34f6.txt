@@ -1,0 +1,3 @@
+
+0 negatív ágon lefuttatott Assert: Sikeres regisztráció (elsőre) után: 
+Assert a pozitív ágon: Welcome! (Your registration was successful!)
