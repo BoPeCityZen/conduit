@@ -1,1 +1,0 @@
-Assert a pozitív ágon: Welcome! (Your registration was successful!)
