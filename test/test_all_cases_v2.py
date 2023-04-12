@@ -261,8 +261,8 @@ class Test11ConduitFunction(object):
         self.browser.maximize_window()
 
     def teardown_method(self):
-        pass
-        # self.browser.quit()
+        # pass
+        self.browser.quit()
 
     # TC1: Regisztráció----------------------------------------------------------------------------------------------------------------------
     @allure.id('TC1.1. N+')
