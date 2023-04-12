@@ -39,8 +39,8 @@ class Test11ConduitFunction(object):
         return inp_fields_elements
 
     def inp_values(self, sub_dict: str):
-        inp_dict = {"Pass": {'Username': 'user99',
-                             'Email': 'user99@hotmail.com',
+        inp_dict = {"Pass": {'Username': 'user1',
+                             'Email': 'user1@hotmail.com',
                              'Password': 'Userpass1', },
                     "Fail": {'Username': 'user1',
                              'Email': 'user1@hotmail.com',
@@ -498,8 +498,8 @@ class Test11ConduitFunction(object):
 
         users_articles[-1].click()
         self.use_delete_article_btn()
-        time.sleep(5)
-        self.browser.refresh()
+        # time.sleep(5)
+        # self.browser.refresh()
         users_articles_now=self.sajat_cikkek()
         NR_after_D = len(users_articles_now)
 
