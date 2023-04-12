@@ -189,6 +189,7 @@ class Test11ConduitFunction(object):
 
     def sajat_cikkek(self):
         self.use_thisuser_btn()
+        time.sleep(2)
         articles = WebDriverWait(self.browser, 5).until(
             EC.presence_of_all_elements_located((By.XPATH, '//div[@class="article-preview"]//h1')))
         return articles
