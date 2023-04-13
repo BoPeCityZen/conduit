@@ -1,0 +1,4 @@
+
+Menuelemek száma 5 -> Belépés megvalósult!
+Igazolt belépés: A kilépés gomb lokalizálható!
+Igazolt belépés: " Log out" szöveg megjelent!
