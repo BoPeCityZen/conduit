@@ -1,3 +1,0 @@
-
-2 negatív ágon lefuttatott Assert: Registration failed! (Email already taken.) után: 
-Assert a pozitív ágon: Welcome! (Your registration was successful!)

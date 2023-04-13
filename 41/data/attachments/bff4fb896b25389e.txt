@@ -1,4 +1,0 @@
-Bevitt cím-->> Create Eco-style text <Vs> Create Eco-style text <<--megjelenő cím
-Bevitt cím-->> Vizsgaremek para <Vs> Vizsgaremek para <<--megjelenő cím
-Bevitt cím-->> Mihez képest?! <Vs> Mihez képest?! <<--megjelenő cím
-Bevitt cím-->> Short <Vs> Short <<--megjelenő cím
