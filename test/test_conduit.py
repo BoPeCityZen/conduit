@@ -56,7 +56,7 @@ class Test11ConduitFunction(callFunctions):
             assert actual_str['swal_text'] == expected_str['Text']
             print(f"Assert a pozitív ágon: {actual_str['swal_title']} ({actual_str['swal_text']})")
         else:
-            print('Localhost-on fontos, hogy a "Pass" dictionary-ből meghívott useradatokkal történt-e már regisztráció')
+            print('Fontos ellenőrizni, hogy a "Pass" dictionary-ből meghívott useradatokkal történt-e már regisztráció')
 
 
     # TC1: Regisztáció -----------------------------------------------------------------------------------------------------------------------
