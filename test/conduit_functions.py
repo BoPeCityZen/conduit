@@ -25,20 +25,18 @@ class callFunctions(useData):
         return logou_btn
 
     def gathering_input_fields(self, inp_fields_elements: dict, placeholders_dict: dict):
+        ### a dict-ből átvett kulcsok lesznek a keresett elemek placeholderei
         placeholders = list(placeholders_dict.keys())
-        # placeholders = ["Username", "Email", "Password"] # a kód kezdeti fázisban előre def. értékekkel ment
-        # print(placeholders)
         for field in range(len(placeholders)):
             inp_fields_elements[f'{placeholders[field]}'] = self.browser.find_element(By.XPATH,
                                                                                       f'//input[@placeholder="{placeholders[field]}"]')
         return inp_fields_elements
 
     def send_inputs(self, inpFields_dict, inp_dict_sub):
-        # inputmezők kitöltése és küldése fgv-ből nyert dict-ek kulcs/érték átadásával
+        ### inputmezők kitöltése és küldése fgv-ből nyert dict-ek kulcs/érték átadásával
         for pairs in inpFields_dict.items():
             inpName = pairs[0]
             inpValue = pairs[1]
-            # print(f'key&value: {inpName}={inpValue}') # ellenőrző sor
             send_this_key = inp_dict_sub[inpName]
             inpValue.send_keys(send_this_key)
 
@@ -74,9 +72,8 @@ class callFunctions(useData):
         self.useSignInButton()
         inp_dict_sub = self.inp_values(sub_dict='Pass')
         username = inp_dict_sub['Username']
-        # print(username)
+        ### A belépés inp_values dict-jéből a username-t törölni kell, előtte változóba íratom, mivel visszaadott értékként viszont használható
         del inp_dict_sub['Username']
-        # print(inp_dict_sub)
         inpFields_dict = self.gathering_input_fields(inp_fields_elements={}, placeholders_dict=inp_dict_sub)
         self.send_inputs(inpFields_dict, inp_dict_sub)
         return username
@@ -93,7 +90,7 @@ class callFunctions(useData):
         return actual_tag
 
     def assert_tag_list(self):
-        # Tag lista elemeinek ellenőrzése: honlapon talált Tagek összevetése előre def. Tagekkel
+        ### Tag lista elemeinek ellenőrzése: honlapon talált Tagek összevetése előre def. Tagekkel
         predef_tags = self.def_tag_list()
         actual_tags = self.tag_list()
         listahossz = len(predef_tags)
@@ -108,10 +105,10 @@ class callFunctions(useData):
                     ### Ha egy elemet megtalált, akkor nőveljük az értéket
                     ottvan += 1
                     Nope = False
-                    # print(tag_name + " " + str(v) + ". indexel szerpel a Tagek között")
             if Nope:
                 pass
-                # print(tag_name + " nem szerepel a Tagek között")
+                ### localhoston visszajelzésként kiirathatók az előre definiálttól eltérő TAG-ek
+                ### print(f'"{tag_name}" nem szerepel az előre definiált Tagek között')
         return ottvan, listahossz
 
     def listed_pages_nav_item(self):

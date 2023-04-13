@@ -36,7 +36,7 @@ class Test11ConduitFunction(callFunctions):
         actual_str = self.popup_text(actual_str={})
         expected_str = self.expected_text(info='Fail')
 
-        ## REG. ELLENŐRZÉSE NEGATÍV ÁGON - SIKERES SIKERTELEN REG. :))
+        ### REG. ELLENŐRZÉSE NEGATÍV ÁGON - SIKERES SIKERTELEN REG. :))
         assert actual_str['swal_title'] == expected_str['Title']
         assert actual_str['swal_text'] == expected_str['Text']
         print(f"Assert a negatív ágon: {actual_str['swal_title']} ({actual_str['swal_text']})")
@@ -50,7 +50,7 @@ class Test11ConduitFunction(callFunctions):
         actual_str = self.popup_text(actual_str={})
         expected_str = self.expected_text(info='Pass')
 
-        ## REG. ELLENŐRZÉSE POZITÍV ÁGON - SIKERES REG.
+        ### REG. ELLENŐRZÉSE POZITÍV ÁGON - SIKERES REG.
         if actual_str['swal_title'] == expected_str['Title']:
             assert actual_str['swal_title'] == expected_str['Title']
             assert actual_str['swal_text'] == expected_str['Text']
@@ -149,9 +149,9 @@ class Test11ConduitFunction(callFunctions):
         ### Öszzevetésre szánt gombfelíratok lekérése
         accept_btn_text = accept_btn.text
         expected_str = self.expected_text(info='Accept')
-        ## cookie policy elfogadásához tartotzó gomb szövegének ellenőrzése - 'I accept!' gomb
+        ### cookie policy elfogadásához tartotzó gomb szövegének ellenőrzése - 'I accept!' gomb
         assert accept_btn_text == expected_str['Text']
-        # accept_btn.click()
+
 
     # TC4:	Adatok listázása-----------------------------------------------------------------------------------------------------------------
     @allure.id('TC4. P+')
@@ -159,10 +159,10 @@ class Test11ConduitFunction(callFunctions):
     def test_listed_data(self):
         self.signin_rutin()
 
-        # Tag list elemeinek ellenőrzése kiszervezett funkc-val
+        ### Tag list elemeinek ellenőrzése kiszervezett funkc-val
         ott_van = self.assert_tag_list()
 
-        # Az ellenőrzés lényege, hogy az összes előre definiált Tag elemet megtalálta-e
+        ### Az ellenőrzés lényege, hogy az összes előre definiált Tag elemet megtalálta-e
         assert ott_van[0] == ott_van[1]
 
     # TC5: Több oldalas lista bejárása-------------------------------------------------------------------------------------------------------
