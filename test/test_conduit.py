@@ -51,12 +51,13 @@ class Test11ConduitFunction(callFunctions):
         expected_str = self.expected_text(info='Pass')
 
         ### REG. ELLENŐRZÉSE POZITÍV ÁGON - SIKERES REG.
-        if actual_str['swal_title'] == expected_str['Title']:
+        try:
             assert actual_str['swal_title'] == expected_str['Title']
             assert actual_str['swal_text'] == expected_str['Text']
             print(f"Assert a pozitív ágon: {actual_str['swal_title']} ({actual_str['swal_text']})")
-        else:
-            print('Fontos ellenőrizni, hogy a "Pass" dictionary-ből meghívott useradatokkal történt-e már regisztráció')
+        except:
+            print('Fontos  előfeltétele ennek a tesztesetnek, hogy a "Pass" dictionaryből még nem regisztrált useradatokat hívjunk meg')
+
 
 
     # TC1: Regisztáció -----------------------------------------------------------------------------------------------------------------------
