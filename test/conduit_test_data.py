@@ -1,8 +1,8 @@
 class useData(object):
 
     def inp_values(self, sub_dict: str):
-        inp_dict = {"Pass": {'Username': 'user1',
-                             'Email': 'user1@hotmail.com',
+        inp_dict = {"Pass": {'Username': 'user77',
+                             'Email': 'user77@hotmail.com',
                              'Password': 'Userpass1', },
                     "Fail": {'Username': 'user1',
                              'Email': 'user1@hotmail.com',
